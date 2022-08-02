@@ -1,0 +1,123 @@
+body {
+
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#maincontent h1 {
+
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.box1 {
+
+    text-align: center;
+}
+
+.box1 p {
+
+    line-height: 1.75em;
+    margin-bottom: 25px;
+}
+
+#maincontent {
+
+    width: fit-content;
+    max-width: 373px;
+    border: solid 1px white;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 30px hsl(224, 44%, 71%);
+}
+
+#illustration img {
+
+    width: 375px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: relative;
+    top: -1px;
+    left: -1px;
+}
+
+.box2 {
+
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    position: relative;
+    left: 28px;
+    width: 315px;
+    height: 80px;
+}
+
+#musicicon {
+
+    position: relative;
+    top: 18px;
+    left: 15px;
+}
+
+.box2 p {
+
+    position: relative;
+    top: -75px;
+    left: 100px;
+}
+
+.box2 h4 {
+    
+    color: hsl(223, 47%, 23%);
+    position: relative;
+    top: -55px;
+    left: 100px;
+}
+
+.box2 a {
+
+    position: relative;
+    left: 230px;
+    top: -125px;
+}
+
+.payment button {
+    
+    width: 315px;
+    height: 50px;
+    position: relative;
+    left: 28px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border-color: hsl(245, 75%, 52%);
+    border-radius: 20px;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.payment button:hover {
+
+    background-color: hsl(245, 63%, 57%);
+    cursor: pointer;
+}
+
+.cancelorder {
+
+    text-align: center;
+    margin-bottom: 30px;
+    color: hsl(224, 23%, 55%);
+}
